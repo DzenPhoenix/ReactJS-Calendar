@@ -1,0 +1,15 @@
+.wrapper {
+  width: 395px;
+  height: 300px;
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow;
+}
+
+.title {
+  font-size: 70px;
+  color: orange;
+}

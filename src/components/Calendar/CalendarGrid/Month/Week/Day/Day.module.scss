@@ -1,0 +1,40 @@
+$size: 50px;
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.dayStyle {
+  width: $size;
+  height: $size;
+  border: 1px solid grey;
+  border-radius: 10%;
+  color:white;
+  background-color: lightcoral;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.7*$size;
+}
+
+.currentDayStyle {
+  background-color: blue;
+}
+
+.selectedDayStyle {
+  border: 3px solid black;
+  background-color: red;
+}
+
+.anotherMonthStyle{
+    color: gray;
+}
+
+.dayStyle:hover{
+  border: 3px solid black;
+  cursor: pointer;
+}

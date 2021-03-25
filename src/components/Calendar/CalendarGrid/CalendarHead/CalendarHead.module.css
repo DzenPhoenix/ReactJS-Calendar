@@ -1,0 +1,20 @@
+.head {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 2px solid green;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}

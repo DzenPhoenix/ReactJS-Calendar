@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Calendar from './components/Calendar/Calendar.jsx';
+
+import {} from 'date-fns';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Calendar  currentDate={new Date(2021, 2, 24)} selectedDate = {new Date(2021, 2, 25)}></Calendar>
     </div>
   );
 }
