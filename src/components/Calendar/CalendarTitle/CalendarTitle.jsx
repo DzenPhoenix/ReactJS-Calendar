@@ -10,7 +10,7 @@ export default class CalendarTitle extends React.Component{
         return(
             <div className={Style.wrapper}>
                 <div className={Style.title}>
-                    {format(selectedDate,'eeee do')}
+                    {format(selectedDate,'MMMM, eeee do')}
                 </div>
             </div>
         )

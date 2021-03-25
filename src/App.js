@@ -7,7 +7,7 @@ import {} from 'date-fns';
 function App() {
   return (
     <div className="App">
-      <Calendar  currentDate={new Date(2021, 2, 24)} selectedDate = {new Date(2021, 2, 25)}></Calendar>
+      <Calendar  currentDate={new Date(2021, 3, 24)} selectedDate = {new Date(2021, 3, 25)}></Calendar>
     </div>
   );
 }
